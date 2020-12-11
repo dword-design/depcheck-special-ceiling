@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.3...v1.0.4) (2020-12-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v5 ([b46ac02](https://github.com/dword-design/depcheck-special-ceiling/commit/b46ac022f2f3c93e8ec0671b00c275f896e5049a))
+
 ## [1.0.3](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.2...v1.0.3) (2020-12-02)
 
 
