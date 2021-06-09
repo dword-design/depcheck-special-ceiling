@@ -7939,14 +7939,6 @@ osenv@^0.1.4, osenv@^0.1.5:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-output-files@^1.1.16:
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/output-files/-/output-files-1.1.20.tgz#78936102b245a564ac3ed6e18afe4a5612768ad4"
-  integrity sha512-l6u9rWngf4WX80K9UOBunWLJtWyJKcSJ20dDSkr95Fiys2FslrQYeU4ensRcy1HHbM7mBwnnxzzxZoAIv6nyeA==
-  dependencies:
-    "@dword-design/functions" "^2.2.2"
-    fs-extra "^9.0.0"
-
 output-files@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.4.tgz#4e33bfda9224d9553f33d9d538ec414bf3a75afe"
