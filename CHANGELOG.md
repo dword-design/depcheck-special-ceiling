@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.8...v1.0.9) (2021-06-09)
+
+
+### Bug Fixes
+
+* use official depcheck ([#13](https://github.com/dword-design/depcheck-special-ceiling/issues/13)) ([99598df](https://github.com/dword-design/depcheck-special-ceiling/commit/99598df8969704cfcae638a730e3f34debca14db))
+
 ## [1.0.8](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.7...v1.0.8) (2021-06-09)
 
 
