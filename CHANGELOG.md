@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.6...v1.0.7) (2021-06-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#10](https://github.com/dword-design/depcheck-special-ceiling/issues/10)) ([2764936](https://github.com/dword-design/depcheck-special-ceiling/commit/2764936279993c42c09aa941cf8a34653066056b))
+* update dependency output-files to v2 ([#11](https://github.com/dword-design/depcheck-special-ceiling/issues/11)) ([a3b6a92](https://github.com/dword-design/depcheck-special-ceiling/commit/a3b6a92f33b09fae2f2e8aad22e34d1f771e99da))
+
 ## [1.0.6](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.5...v1.0.6) (2021-06-09)
 
 
