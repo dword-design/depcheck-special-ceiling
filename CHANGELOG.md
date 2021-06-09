@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.7...v1.0.8) (2021-06-09)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v4 ([#12](https://github.com/dword-design/depcheck-special-ceiling/issues/12)) ([f40f701](https://github.com/dword-design/depcheck-special-ceiling/commit/f40f70194764a900ea51dbf7a22a4b41e560c805))
+
 ## [1.0.7](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.6...v1.0.7) (2021-06-09)
 
 
