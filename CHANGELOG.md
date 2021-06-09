@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.5...v1.0.6) (2021-06-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#9](https://github.com/dword-design/depcheck-special-ceiling/issues/9)) ([00c7316](https://github.com/dword-design/depcheck-special-ceiling/commit/00c73169445584805d02b35c60809b1b5df4ea7a))
+
 ## [1.0.5](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.4...v1.0.5) (2021-02-17)
 
 
