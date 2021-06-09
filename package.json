@@ -20,7 +20,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/functions": "^1.1.2",
+    "@dword-design/functions": "^4.0.0",
     "plugin-name-to-package-name": "^0.1.1"
   },
   "devDependencies": {
