@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "",
   "repository": "dword-design/depcheck-special-ceiling",
+  "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
@@ -10,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "check-unknown-files": "base check-unknown-files",
+    "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "dev": "base dev",
     "lint": "base lint",
@@ -23,10 +24,13 @@
     "plugin-name-to-package-name": "^0.1.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^7.0.0",
+    "@dword-design/base": "^8.0.0",
     "execa": "^5.0.0",
     "output-files": "^1.1.16",
     "with-local-tmp-dir": "^2.2.10"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "publishConfig": {
     "access": "public"

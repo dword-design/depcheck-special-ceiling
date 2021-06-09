@@ -12,11 +12,14 @@ const filenames = [
 export default filename => {
   if (filenames |> includes(filename |> P.basename)) {
     const config = require(filename)
+
     const plugins = config.plugins || []
+
     return (
       plugins
       |> map(shortName => pluginNameToPackageName(shortName, 'ceiling-plugin'))
     )
   }
+
   return []
 }
