@@ -1371,10 +1371,10 @@
     std-env "^2.3.0"
     yaml "^1.8.2"
 
-"@dword-design/chdir@^1.0.0":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/chdir/-/chdir-1.0.4.tgz#0065efb0a2cb10fae04d5f37583085be866cff1f"
-  integrity sha512-5os3m+/k/hmFhvQXdAqkmXMfrxmmAWFP8ebpXQ9cHjgzhg3zj/fW6xWOKvEPVEqE95nrB1FAy6DcSbsQ061d+Q==
+"@dword-design/chdir@^2.0.0":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@dword-design/chdir/-/chdir-2.0.3.tgz#6a1835beaac450110505516195f45f421a13eeed"
+  integrity sha512-qU8NYBCaigsrcWnGre9M1T6hgTANxJloPimXHndy0m7/ih5huaqFpQ5IOoPTuBm2PH/ijdGEy84iCvs+zzlONg==
 
 "@dword-design/ci@^3.0.0":
   version "3.0.4"
@@ -10414,12 +10414,12 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-with-local-tmp-dir@^2.2.10:
-  version "2.2.15"
-  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-2.2.15.tgz#fcf68ac2f52a69f6cdcfbf2c494825dffd4d0eb7"
-  integrity sha512-pQ5TVrkm7R2ZZH0eyBSGMVOQfVYCoNBs78vN6YUBeVEKQ+zDizqErPfKslpy7gnhtSsmFHgSnFkAAT+ONlaZeA==
+with-local-tmp-dir@^4.0.0:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-4.0.4.tgz#3354cfc7efc2c02fb1649bc317abfedb98238631"
+  integrity sha512-CFTy2FFAVR0oXUfH2tVHgBwCOgejVTKwjhjgRY3oU55uR2sgMH9HcokyxfdsHUkgiAPUPRZdJETnbql5Eer7Aw==
   dependencies:
-    "@dword-design/chdir" "^1.0.0"
+    "@dword-design/chdir" "^2.0.0"
     tmp-promise "^3.0.0"
 
 word-wrap@^1.0.3, word-wrap@^1.2.3:
