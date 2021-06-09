@@ -1,27 +1,23 @@
-import { endent, mapValues } from '@dword-design/functions'
-import execa from 'execa'
+import { mapValues } from '@dword-design/functions'
+import depcheck from 'depcheck'
 import outputFiles from 'output-files'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
+import self from '.'
+
 const runTest = config => () =>
   withLocalTmpDir(async () => {
-    await outputFiles({
-      'depcheck.config.js': endent`
-      const special = require('../src')
-      module.exports = {
-        specials: [
-          special,
-        ],
-      }
-    `,
-      ...config.files,
+    await outputFiles(config.files)
+
+    const result = await depcheck('.', {
+      package: {
+        dependencies: {
+          'ceiling-plugin-foo': '^1.0.0',
+        },
+      },
+      specials: [self],
     })
-    try {
-      await execa.command('depcheck --config depcheck.config.js')
-    } catch (error) {
-      expect(error.message).toMatch('Unused dependencies')
-      expect(config.fail).toBeTruthy()
-    }
+    expect(result.dependencies).toEqual([])
   })
 
 export default {
@@ -29,11 +25,6 @@ export default {
     files: {
       '.ceilingrc.json': JSON.stringify({
         plugins: ['foo'],
-      }),
-      'package.json': JSON.stringify({
-        dependencies: {
-          'ceiling-plugin-foo': '^1.0.0',
-        },
       }),
     },
   },
