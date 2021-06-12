@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.9...v1.0.10) (2021-06-12)
+
+
+### Bug Fixes
+
+* write GitHub metadata to package.json [description] ([#14](https://github.com/dword-design/depcheck-special-ceiling/issues/14)) ([33559b3](https://github.com/dword-design/depcheck-special-ceiling/commit/33559b38ed5f600f2fc6f59133b9b9aca72f06e8))
+
 ## [1.0.9](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.8...v1.0.9) (2021-06-09)
 
 
