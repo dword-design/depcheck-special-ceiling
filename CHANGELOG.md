@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.12...v1.0.13) (2021-07-20)
+
+
+### Bug Fixes
+
+* update config files ([0d721ef](https://github.com/dword-design/depcheck-special-ceiling/commit/0d721ef17e74f328f48bfc6a109118deace9fb75))
+
 ## [1.0.12](https://github.com/dword-design/depcheck-special-ceiling/compare/v1.0.11...v1.0.12) (2021-07-06)
 
 
